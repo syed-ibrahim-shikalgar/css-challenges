@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+body {
+    background-color: #fff;
+    height: 100vh;
+}
+
+.flex-direction--column{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.flex-justifyContent--center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 a {
+    color: #5469D4;
+    text-decoration: none;
+}
+
+.formbg-outer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.formbg {
+    align-items: center;
+    border: 2px solid #E0E1E4;
+    border-color: #E0E1E4;
+    width: fit-content;
+    padding: 40px 50px 40px 40px;
+    box-shadow: 0 0 10px 2px rgb(224, 225, 228);
+}
+
+.padding-bottom--15 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.padding-bottom--24 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.padding-bottom--24 label {
+    color: black;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.padding-bottom--24 input {
+    padding: 10px 70px;
+    border: 2px solid #E0E1E4;
+    box-shadow: none;
+    border-color: #E0E1E4;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.grid--50-50 {
+    display: flex;
+    flex-direction: row;
+}
+
+.grid--50-50 label {
+    font-weight: bold;
+    color: #000;
+}
+
+.reset-pass a {
+    margin-left: 95px;
+    text-decoration: none;
+    color: #5469D4;
+}
+
+.align-center {
+    display: flex;
+    flex-direction: row;
+}
+
+input[type='checkbox'] {
+    width: 16px;
+    height: 16px;
+}
+
+input[type='submit'] {
+    background-color: #5469D4;
+    border-color: #5469D4;
+    border-radius: 5px;
+    box-shadow: none;
+    color: #fff;
+    font-weight: 600;
+}
+
+.ssolink {
+    color: #5469D4;
+    text-decoration: none;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.padding-top--24 span {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.padding-top--24 span a {
+    color: #5469D4;
+    text-decoration: none;
+    margin-left: 3px;
+}
+
+.center-center {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.center-center span a {
+    margin-right: 20px;
+    color: #697386;
+}

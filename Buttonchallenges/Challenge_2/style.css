@@ -1,0 +1,23 @@
+body {
+    background-color: #000000;
+    text-align: center;
+    align-items: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .btn{
+    background-color: #000000;
+    color: #fff;
+  }
+  .btn:hover {
+    background-color: #000000;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    box-shadow: 0 0 10px 2px rgba(201, 245, 6);
+    border: 3px solid #c8e608;
+    transition: 1s;
+  }

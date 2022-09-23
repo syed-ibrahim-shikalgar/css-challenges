@@ -1,0 +1,30 @@
+.container {
+    background-color: #fff;
+    min-height: 100vh;
+    display: flex;
+	align-items:center;
+	justify-content: center;
+}
+
+.btn {
+    background-color: #2998F3;
+    color: white;
+	position: relative;
+	border-radius: 4px;
+	padding: 15px 30px;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+.badge {
+    border-radius: 50%;
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	background-color: #333333;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	top: -15px;
+	right: -15px;
+}
